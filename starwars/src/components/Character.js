@@ -7,14 +7,18 @@ const P = styled.p`
     ${props =>
         props.type === 'name' &&
        `font-size: 20px;
+        font-family: sans-serif; 
         color: blue;
+        background: black;
         `
     }
 
     ${props =>
         props.type === 'location' &&
-       `font-size: 16px;
-        color: lime; 
+       `font-size: 20px;
+        font-family: sans-serif; 
+        color: lime;
+        background: black; 
         `
     }
 `;

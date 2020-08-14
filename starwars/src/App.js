@@ -21,7 +21,7 @@ export const Container = styled.div`
   const Title = styled.h1`
    text-align: center;
    color: white;
-   font-size: 3rem;
+   font-size: 4rem;
 
  `;
 
@@ -52,7 +52,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Title>Wanted on Earth for interdimensional crimes: </Title>
+      <Title>WANTED ON EARTH FOR INTERDIMENSIONAL CRIMES: </Title>
       <AlienContainer>
       {characters.map(character => {
         return (
